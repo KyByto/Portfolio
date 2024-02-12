@@ -1,7 +1,7 @@
 
 const works :Work[] =[{
     "id": 1 ,
-"image" : "/WorkImage/zara.PNG",
+"image" : "/WorkImage/zara.png",
 "title" : "Kyto",
 "link":"https://kyoto-clothes.netlify.app/",
 "description" : "This is  home page website for clothing that I developed using React.js and Swiper.js  and Sass",
