@@ -1,7 +1,7 @@
 
 const works :Work[] =[{
     "id": 1 ,
-"image" : "/WorkImage/zara.PNG",
+"image" : "/WorkImage/portfolio.PNG",
 "title" : "Kyto",
 "link":"https://kyoto-clothes.netlify.app/",
 "description" : "This is  home page website for clothing that I developed using React.js and Swiper.js  and Sass",
@@ -10,7 +10,7 @@ const works :Work[] =[{
 
 },{
     "id": 1 ,
-"image" : "/WorkImage/dash.PNG",
+"image" : "/WorkImage/portfolio.PNG",
 "title" : "Dash Event",
 "link" :"https://dash-event.netlify.app/",
 "description" :"My Website for the Google Developer Group Algiers challenge. Users can easily register for the Dash event and receive automatic mail."
