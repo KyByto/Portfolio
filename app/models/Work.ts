@@ -1,7 +1,7 @@
 
 const works :Work[] =[{
     "id": 1 ,
-"image" : "/WorkImage/portfolio.png",
+"image" : "./zara.png",
 "title" : "Kyto",
 "link":"https://kyoto-clothes.netlify.app/",
 "description" : "This is  home page website for clothing that I developed using React.js and Swiper.js  and Sass",
@@ -10,7 +10,7 @@ const works :Work[] =[{
 
 },{
     "id": 1 ,
-"image" : "/WorkImage/portfolio.png",
+"image" : "./dash.png",
 "title" : "Dash Event",
 "link" :"https://dash-event.netlify.app/",
 "description" :"My Website for the Google Developer Group Algiers challenge. Users can easily register for the Dash event and receive automatic mail."
@@ -19,7 +19,7 @@ const works :Work[] =[{
 
 },{
     "id": 1 ,
-"image" : "/WorkImage/portfolio.png",
+"image" : "./portfolio.png",
 "title" : "Portfolio",
 "description" : " My portfolio is built with Next.js and TypeScript, ensuring top performance and clean, error-free code.",
 "technologies" : ["Next js" , "Typescript" , "Tailwind" ],
