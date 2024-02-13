@@ -81,7 +81,7 @@ export default function MyWork() {
   <img src="/bouleBleu.png" alt="careau bleu" className="hidden md:block absolute w-[200px] bottom-[65%] left-[25%]" /> {/* Remove or reduce z-index */}
  
   <h1 className="text-customBlue text-4xl font-bold xs:mb-8 mb-0 pl-2">My Work</h1>
- <section className="xs:mt-8 xs:ml-7 ml-2 z-10"> {/* Increase z-index for content */}
+ <section className="xs:mt-8 xs:ml-7 ml-2 z-10 p-4"> {/* Increase z-index for content */}
     <Swiper
       modules={[Keyboard , Autoplay]}
       keyboard={true}
