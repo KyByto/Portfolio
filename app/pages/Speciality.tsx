@@ -17,7 +17,7 @@ export default function Speciality() {
       <div className="w-[60%] xs:mx-10 xs:mt-7 ml-3 mt-1 ">
 <h1 className={`${archivo_black.className}  text-customYellow   xl:text-[64px] md:text-[44px] sm:text-[35px] xs:text-[30px] text-[30px]`}  >Front end</h1>
 <p className="text-white  xl:text-[18px] md:mt-7 xs:text-[13px] text-[12px]  ">Specializing in React.js and Next.js, I excel in crafting high-performance applications with beautiful UI using clean code practices. Leveraging JavaScript and TypeScript, along with advanced router techniques, I create seamless user experiences that elevate the web development landscape.</p>
-<Image className="opacity-50 mt-10 rotate-[45deg] xl:w-[200px] md:w-[120px] sm:w-[90px] xs:w-[70px] w-[100px] absolute  top-[600px] left-[200px] xs:static xxs:left-[230px] xxs:bottom-[270px]"  src={ReactIcon} alt="react icon" width={250} height={150} />
+<Image className="opacity-50 mt-10 rotate-[45deg] xl:w-[200px] md:w-[120px] sm:w-[90px] xs:w-[70px] w-[100px] absolute  top-[300px] left-[200px] xs:static xxs:left-[230px] xxs:bottom-[270px]"  src={ReactIcon} alt="react icon" width={250} height={150} />
 </div>  
 <div className="">
 
