@@ -26,7 +26,7 @@ export default function Speciality() {
 <Image className="mt-[100%] md:block hidden" src={zigzagJaune} alt="zig zag jaune" />
 </div>
     </section>
-      <section className="xs:w-[35vw] bg-customYellow w-[100vw] h-[40vh] xs:h-[100vh]">
+      <section className="xs:w-[35vw] bg-customYellow w-[100vw] h-[50vh] xs:h-[100vh]">
 
       <div className="mr-3   mt-35 w-[100%] p-5 xxs:p-3">
       <Image className="md:mb-10 xs:ml-12 mt-5 xl:w-[150px] md:w-[120px] sm:w-[90px] xs:w-[70px] hidden xs:block " src={DataBaseIcon} alt="database" />
