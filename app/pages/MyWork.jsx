@@ -74,7 +74,7 @@ export default function MyWork() {
   };
 
   return (
-    <main className="absolute h-screen w-screen pt-2 xs:pl-10">
+    <main className="absolute h-screen w-screen  bg-white z-20 pt-2 xs:pl-10">
         <img src="/zigzagBleu.png" alt="zigzag bleu" className="hidden md:block absolute top-[90%] left-[10%]" /> {/* Remove or reduce z-index */}
   <img src="/careauBleu.png" alt="careau bleu" className="hidden md:block absolute w-[200px] top-[83%] right-[10%]" /> {/* Remove or reduce z-index */}
   <img src="/escalierBleu.png" alt="careau bleu" className="hidden md:block absolute w-[200px] bottom-[82%] right-[40%]" /> {/* Remove or reduce z-index */}
