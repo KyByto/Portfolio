@@ -74,14 +74,14 @@ export default function MyWork() {
   };
 
   return (
-    <main className="absolute h-screen w-screen  bg-white z-20 pt-2 xs:pl-10">
-        <img src="/zigzagBleu.png" alt="zigzag bleu" className="hidden md:block absolute top-[90%] left-[10%]" /> {/* Remove or reduce z-index */}
-  <img src="/careauBleu.png" alt="careau bleu" className="hidden md:block absolute w-[200px] top-[83%] right-[10%]" /> {/* Remove or reduce z-index */}
+    <main className="absolute bg-white z-20 h-screen w-screen pt-2 xs:pl-10 p-6">
+        <img src="/zigzagBleu.png" alt="zigzag bleu" className=" md:block absolute top-[90%] md:left-[10%] w-[70px] right-[10%] bottom-[10%]" /> {/* Remove or reduce z-index */}
+  <img src="/careauBleu.png" alt="careau bleu" className="w-[300px] right-[10px] top-[50px] md:block absolute md:w-[200px] md:top-[83%] md:right-[10%]" /> {/* Remove or reduce z-index */}
   <img src="/escalierBleu.png" alt="careau bleu" className="hidden md:block absolute w-[200px] bottom-[82%] right-[40%]" /> {/* Remove or reduce z-index */}
-  <img src="/bouleBleu.png" alt="careau bleu" className="hidden md:block absolute w-[200px] bottom-[65%] left-[25%]" /> {/* Remove or reduce z-index */}
+  <img src="/bouleBleu.png" alt="careau bleu" className="bottom-[15px] left-[40px] w-[100px] md:block absolute md:w-[200px] md:bottom-[65%] md:left-[25%]" /> {/* Remove or reduce z-index */}
  
-  <h1 className="text-customBlue text-4xl font-bold xs:mb-8 mb-0 pl-2">My Work</h1>
- <section className="xs:mt-8 xs:ml-7 ml-2 z-10 p-4"> {/* Increase z-index for content */}
+  <h1 className="text-customBlue text-4xl font-bold mt-[1rem] xs:mb-8 mb-9 ">My Work</h1>
+ <section className="xs:mt-8 xs:ml-7 ml-2 z-10 "> {/* Increase z-index for content */}
     <Swiper
       modules={[Keyboard , Autoplay]}
       keyboard={true}
