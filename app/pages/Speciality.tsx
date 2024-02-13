@@ -11,7 +11,7 @@ export default function Speciality() {
   return (
     <main className=" flex w-screen h-screen  flex-col  xs:flex-row">
 
-<section className="flex bg-customBlue xs:w-[65%] pl-5 pt-2  h-screen xxs:pl-0 h-[50%] xs:h-[100%]" >
+<section className="flex bg-customBlue xs:w-[65vw] pl-5 pt-2  h-screen xxs:pl-0 h-[50vh] xs:h-[100vh]" >
   
 
       <div className="w-[60%] xs:mx-10 xs:mt-7 ml-3 mt-1 ">
@@ -26,7 +26,7 @@ export default function Speciality() {
 <Image className="mt-[100%] md:block hidden" src={zigzagJaune} alt="zig zag jaune" />
 </div>
     </section>
-      <section className="xs:w-[35%] bg-customYellow w-[100%] h-[50%] xs:h-[100%]">
+      <section className="xs:w-[35vw] bg-customYellow w-[100vw] h-[50vh] xs:h-[100vh]">
 
       <div className="mr-3   mt-35 w-[100%] p-5 xxs:p-3">
       <Image className="md:mb-10 xs:ml-12 mt-5 xl:w-[150px] md:w-[120px] sm:w-[90px] xs:w-[70px] hidden xs:block " src={DataBaseIcon} alt="database" />
