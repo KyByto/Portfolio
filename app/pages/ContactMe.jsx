@@ -1,12 +1,41 @@
 import Input from "@/components/Input";
 import { Archivo_Black } from "next/font/google";
 import Link from "next/link";
+import { Toaster, toast } from 'sonner'
 
-
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const archivo_black = Archivo_Black({weight:"400",subsets:['latin']});
 
 export default function ContactMe() {
+  
+    const formRef = useRef();
+  
+    const sendEmail = (e ) => {
+     
+      e.preventDefault();
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+      const userId = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
+      emailjs
+        .sendForm(serviceId, 
+          templateId, formRef.current , {
+            publicKey: userId,
+            
+            
+          } )
+        .then(
+          (response) => {
+            console.log('SUCCESS!' , response.text);
+            toast.success('Your message has been sent')
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+  
   return (
     <main className="w-screen h-screen flex flex-col items-center p-5 md:p-10">
       <img className="absolute  w-[10%] rotate-[45deg] top-[375%] right-[6%]" src="/bouleBleu.png" alt="boule bleu" />
@@ -15,22 +44,22 @@ export default function ContactMe() {
       <img src="/escalierBleu.png" className="absolute left-[3%]  w-[10%]" />
       <div className=" w-[100%] xs:w-[90%] md:w-[70%] flex flex-col gap-7">
         <h1 className={`text-customBlue text-center   text-[35px] md:text-[64px] ${archivo_black.className}`}>Contact Me</h1>
-        <form className=" flex  flex-col gap-2 sm:gap-10 pr-14">
+        <form className=" flex  flex-col gap-2 sm:gap-10 pr-14" ref={formRef} onSubmit={sendEmail}>
           <div className=" flex flex-col md:flex-row gap-3  justify-between">
            <Input className="w-[100%] md:w-[48%]">
 <label htmlFor="name">Your Name :</label>
-<input tabIndex={-1} className="md:text-base  text-sm" placeholder="Enter Your Name" id="name" type="text"/>
+<input tabIndex={-1} className="md:text-base  text-sm" name="user_name" placeholder="Enter Your Name" id="name" type="text"/>
 </Input>
 
 <Input className="w-[100%]  md:w-[48%]">
 <label className="md:text-base text-sm" htmlFor="email">Your Address :</label>
-<input tabIndex={-1}  type="text" placeholder="Enter Your Email Address" id="email"/>
+<input tabIndex={-1}  type="text" name="user_email" placeholder="Enter Your Email Address" id="email"/>
 </Input>
 </div>  
 
 <Input className="w-[100%]   ">
 <label htmlFor="message">Your Message :</label>
-<textarea tabIndex={-1} className=""   placeholder="Enter Your Message" id="email"/>
+<textarea tabIndex={-1} className="" name="user_message"  placeholder="Enter Your Message" id="message"/>
 </Input>
 <button type="submit" className="text-customBlue text-[30px] w-[70%]   md:w-[30%] pt-3 pb-3 self-center ml-14 msg-button " tabIndex={-1}>Send</button>
             </form>
@@ -40,6 +69,7 @@ export default function ContactMe() {
 <Link tabIndex={-1} target="_blank" href="https://discord.com/users/486171626258432008">          <img  src="/discord-round-color-icon.svg" alt="discord icon" className="w-[50px]"/></Link>  
       </div>
       </div>
+      <Toaster position="bottom-right" />
     </main>
   )
 }
