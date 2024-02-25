@@ -6,16 +6,16 @@ const works :Work[] =[{
 "link":"https://kyoto-clothes.netlify.app/",
 "description" : "This is  home page website for clothing that I developed using React.js and Swiper.js  and Sass",
 "technologies" : ["React js" , "Swiper js" , "Sass" ],
-"githublink" : "https://github.com/KyByto/Portfolio"
+"githublink" : "https://github.com/KyByto/Kyto-Clothes-Website-Home"
 
 },{
     "id": 1 ,
 "image" : "https://i.ibb.co/zrVcqy8/dash.png",
 "title" : "Dash Event",
-"link" :"https://dash-event.netlify.app/",
+"link" :"https://dash-pi.vercel.app/",
 "description" :"My Website for the Google Developer Group Algiers challenge. Users can easily register for the Dash event and receive automatic mail."
-,"technologies" : ["React js" , "Node js" , "Express Js"  ],
-"githublink" : "https://github.com/KyByto/Portfolio"
+,"technologies" : ["Next js" , "Tailwind" , "TypeScript"  ],
+"githublink" : "https://github.com/KyByto/dash"
 
 },{
     "id": 1 ,
