@@ -23,7 +23,8 @@ const works :Work[] =[{
 "title" : "Portfolio",
 "description" : " My portfolio is built with Next.js and TypeScript, ensuring top performance and clean, error-free code.",
 "technologies" : ["Next js" , "Typescript" , "Tailwind" ],
-"githublink" : "https://github.com/KyByto/Portfolio"
+"githublink" : "https://github.com/KyByto/Portfolio",
+    "link":"https://www.kybyto.tech",
 
 }
           ,{
@@ -32,7 +33,8 @@ const works :Work[] =[{
 "title" : "Hanoi-tower",
 "description" : " Experience the classic Tower of Hanoi puzzle game online, challenging your strategic thinking with multiple difficulty levels.",
 "technologies" : ["Html" , "Css" , "JavaScript" ],
-"githublink" : "https://github.com/KyByto/Hanoi-tower"
+"githublink" : "https://github.com/KyByto/Hanoi-tower",
+              "link":"https://tour-hanoi-jeu.netlify.app/"
 
 }
 ];
