@@ -9,7 +9,7 @@ const works :Work[] =[{
 "githublink" : "https://github.com/KyByto/Kyto-Clothes-Website-Home"
 
 },{
-    "id": 1 ,
+    "id": 2 ,
 "image" : "https://i.ibb.co/zrVcqy8/dash.png",
 "title" : "Dash Event",
 "link" :"https://dash-pi.vercel.app/",
@@ -18,12 +18,21 @@ const works :Work[] =[{
 "githublink" : "https://github.com/KyByto/dash"
 
 },{
-    "id": 1 ,
+    "id": 3 ,
 "image" : "https://i.ibb.co/d5QrqKH/portfolio.png",
 "title" : "Portfolio",
 "description" : " My portfolio is built with Next.js and TypeScript, ensuring top performance and clean, error-free code.",
 "technologies" : ["Next js" , "Typescript" , "Tailwind" ],
 "githublink" : "https://github.com/KyByto/Portfolio"
+
+}
+          ,{
+    "id": 4 ,
+"image" : "https://ibb.co/JycGpqh",
+"title" : "Hanoi-tower",
+"description" : " Experience the classic Tower of Hanoi puzzle game online, challenging your strategic thinking with multiple difficulty levels.",
+"technologies" : ["Html" , "Css" , "JavaScript" ],
+"githublink" : "https://github.com/KyByto/Hanoi-tower"
 
 }
 ];
