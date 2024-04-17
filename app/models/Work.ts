@@ -29,7 +29,7 @@ const works :Work[] =[{
 }
           ,{
     "id": 4 ,
-"image" : "https://ibb.co/JycGpqh",
+"image" : "https://i.ibb.co/rcQzp3W/hanoi.png",
 "title" : "Hanoi-tower",
 "description" : " Experience the classic Tower of Hanoi puzzle game online, challenging your strategic thinking with multiple difficulty levels.",
 "technologies" : ["Html" , "Css" , "JavaScript" ],
