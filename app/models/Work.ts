@@ -10,7 +10,7 @@ const works :Work[] =[{
 
 },
                       {
-    "id": 2,
+    "id": 3,
 "image" : "https://i.ibb.co/QppP3wz/Capture-d-cran-2024-04-24-135309.png",
 "title" : "E-Commerce Website",
 "link":"https://dev-kybyto.pantheonsite.io/",
@@ -19,7 +19,7 @@ const works :Work[] =[{
 
 },
                       {
-    "id": 2 ,
+    "id": 4 ,
 "image" : "https://i.ibb.co/zrVcqy8/dash.png",
 "title" : "Dash Event",
 "link" :"https://dash-pi.vercel.app/",
@@ -28,7 +28,7 @@ const works :Work[] =[{
 "githublink" : "https://github.com/KyByto/dash"
 
 },{
-    "id": 3 ,
+    "id": 5 ,
 "image" : "https://i.ibb.co/d5QrqKH/portfolio.png",
 "title" : "Portfolio",
 "description" : " My portfolio is built with Next.js and TypeScript, ensuring top performance and clean, error-free code.",
@@ -38,7 +38,7 @@ const works :Work[] =[{
 
 }
           ,{
-    "id": 4 ,
+    "id": 6 ,
 "image" : "https://i.ibb.co/rcQzp3W/hanoi.png",
 "title" : "Hanoi-tower",
 "description" : " Experience the classic Tower of Hanoi puzzle game online, challenging your strategic thinking with multiple difficulty levels.",
