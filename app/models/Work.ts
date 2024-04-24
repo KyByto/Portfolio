@@ -8,7 +8,17 @@ const works :Work[] =[{
 "technologies" : ["React js" , "Swiper js" , "Sass" ],
 "githublink" : "https://github.com/KyByto/Kyto-Clothes-Website-Home"
 
-},{
+},
+                      {
+    "id": 2,
+"image" : "https://i.ibb.co/QppP3wz/Capture-d-cran-2024-04-24-135309.png",
+"title" : "E-Commerce Website",
+"link":"https://dev-kybyto.pantheonsite.io/",
+"description" : "E-Commerce Website For BIG PLANET Company",
+ 
+
+},
+                      {
     "id": 2 ,
 "image" : "https://i.ibb.co/zrVcqy8/dash.png",
 "title" : "Dash Event",
