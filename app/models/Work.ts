@@ -15,7 +15,8 @@ const works :Work[] =[{
 "title" : "E-Commerce Website",
 "link":"https://dev-kybyto.pantheonsite.io/",
 "description" : "E-Commerce Website For BIG PLANET Company",
- 
+"technologies": ["WordPress" ] ,
+                          "githublink":""
 
 },
                       {
