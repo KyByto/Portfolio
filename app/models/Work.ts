@@ -12,9 +12,9 @@ const works :Work[] =[{
                       {
     "id": 2 ,
 "image" : "https://i.postimg.cc/Y0QT7qcP/Capture-d-cran-2024-04-27-175916.png",
-"title" : "Ecom for facebook ads page",
+"title" : "Ecom for Phone & Accessory Shop ",
 "link":"https://dev-soldechock.pantheonsite.io/",
-"description" : "Website for getting conversion from facebook ads clients",
+"description" : "E-commerce website for A phone Shop ",
 "technologies" : ["Woo commerce" , "WordPress"  ],
 "githublink" : ""
 
