@@ -10,6 +10,16 @@ const works :Work[] =[{
 
 },
                       {
+    "id": 2 ,
+"image" : "https://i.postimg.cc/Y0QT7qcP/Capture-d-cran-2024-04-27-175916.png",
+"title" : "Ecom for facebook ads page",
+"link":"https://dev-soldechock.pantheonsite.io/",
+"description" : "Website for getting conversion from facebook ads clients",
+"technologies" : ["Woo commerce" , "WordPress"  ],
+"githublink" : ""
+
+},
+                      {
     "id": 3,
 "image" : "https://i.ibb.co/QppP3wz/Capture-d-cran-2024-04-24-135309.png",
 "title" : "E-Commerce Website",
