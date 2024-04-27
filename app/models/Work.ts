@@ -13,7 +13,7 @@ const works :Work[] =[{
     "id": 2 ,
 "image" : "https://i.postimg.cc/Y0QT7qcP/Capture-d-cran-2024-04-27-175916.png",
 "title" : "Ecom for Phone & Accessory Shop ",
-"link":"https://dev-soldechock.pantheonsite.io/",
+"link":"https://dev-vtcdz.pantheonsite.io/",
 "description" : "E-commerce website for A phone Shop ",
 "technologies" : ["Woo commerce" , "WordPress"  ],
 "githublink" : ""
