@@ -2,7 +2,7 @@
 import { Caveat } from "next/font/google"
 import { Archivo_Black } from "next/font/google";
 import Image from "next/image";
-import facePic from "../../public/photo.jpg"
+import facePic from "../../public/photo.png"
 import careauBleu from "../../public/careauBleu.png"
 import escalierBleu from "../../public/escalierBleu.png"
 import escalierJaune from "../../public/escalierJaune.png"
