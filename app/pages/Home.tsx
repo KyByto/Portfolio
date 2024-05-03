@@ -26,7 +26,7 @@ export default function Home() {
 
 <div>
 <div className=" relative   xl:w-[300px] sm:w-[200px]  w-[100px]   xs:w-[150px]   sm:rounded-sm">
-<img className="xl:rounded-0  rounded-xl" src="photo.jpg" alt="facePic" width={250} height={300} />
+<img className="xl:rounded-0  rounded-xl" src="https://i.ibb.co/X5rHByr/Design-sans-titre-7.png" alt="facePic" width={250} height={300} />
 
 </div>
 </div>
