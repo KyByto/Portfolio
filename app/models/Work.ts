@@ -23,8 +23,8 @@ const works :Work[] =[{
     "id": 3,
 "image" : "https://i.ibb.co/QppP3wz/Capture-d-cran-2024-04-24-135309.png",
 "title" : "E-Commerce Website",
-"link":"https://dev-kybyto.pantheonsite.io/",
-"description" : "E-Commerce Website For BIG PLANET Company",
+"link":"https://dev-eattallah-modeliste.pantheonsite.io/",
+"description" : "E-Commerce Website For Eatallah Modeliste",
 "technologies": ["WordPress" ] ,
                           "githublink":""
 
