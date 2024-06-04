@@ -5,7 +5,7 @@ const works :Work[] =[{
 "title" : "Blog Website",
 "link":"",
 "description" : "A blog website where users can register, log in, create, read, update, and delete their own blog posts, and view and interact with posts from other users.",
-"technologies" : ["Laravel" ,  "Tailwind css" ],
+"technologies" : ["Laravel" ,  "Tailwind css" , "Docker" ],
 "githublink" : "https://github.com/KyByto/Kyto-Clothes-Website-Home"
 
 },
