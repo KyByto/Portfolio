@@ -1,5 +1,15 @@
 
 const works :Work[] =[{
+    "id": 0 ,
+"image" : "https://i.ibb.co/7pdJR48/Capture-d-cran-2024-06-04-065654.png",
+"title" : "Blog Website",
+"link":"",
+"description" : "A blog website where users can register, log in, create, read, update, and delete their own blog posts, and view and interact with posts from other users.",
+"technologies" : ["React js" , "Swiper js" , "Sass" ],
+"githublink" : "https://github.com/KyByto/Kyto-Clothes-Website-Home"
+
+},
+                      {
     "id": 1 ,
 "image" : "https://i.ibb.co/1TBwfWx/zara.png",
 "title" : "Kyto",
