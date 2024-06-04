@@ -31,7 +31,7 @@ const works :Work[] =[{
 },
                       {
     "id": 3,
-"image" : "https://i.ibb.co/QppP3wz/Capture-d-cran-2024-04-24-135309.png",
+"image" : "https://i.ibb.co/Nm8rPD0/Capture-d-cran-2024-06-04-072313.png",
 "title" : "E-Commerce Website",
 "link":"https://dev-eattallah-modeliste.pantheonsite.io/",
 "description" : "E-Commerce Website For Eatallah Modeliste",
