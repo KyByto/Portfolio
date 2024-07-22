@@ -3,7 +3,7 @@ const works :Work[] =[{
     "id": 0 ,
 "image" : "https://i.ibb.co/7pdJR48/Capture-d-cran-2024-06-04-065654.png",
 "title" : "Blog Website",
-"link":"",
+"link":"https://github.com/KyByto/Blog-Website",
 "description" : "Blog Website Where Users Can register, log in, create, read, update, and delete their own blog posts, and view and interact with posts from other users.",
 "technologies" : ["Laravel" ,  "Tailwind css" , "Docker" ],
 "githublink" : "https://github.com/KyByto/Blog"
@@ -65,7 +65,7 @@ const works :Work[] =[{
 "description" : " Experience the classic Tower of Hanoi puzzle game online, challenging your strategic thinking with multiple difficulty levels.",
 "technologies" : ["Html" , "Css" , "JavaScript" ],
 "githublink" : "https://github.com/KyByto/Hanoi-tower",
-              "link":"https://tour-hanoi-jeu.netlify.app/"
+              "link":"https://hanoitower-complexity.netlify.app/"
 
 }
 ];
