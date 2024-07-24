@@ -1,6 +1,17 @@
 const works: Work[] = [
     {
         "id": 0,
+        "image": "https://i.ibb.co/HHHFcpJ/Capture-d-cran-2024-07-24-153400.png",
+        "title": "Djezzy Stickers",
+        "link": "https://stickers.djezzy.fennec.digital/",
+        "description": "I participate in the development of the Djezzy Stickers website, where users can download and share stickers.",
+        "technologies": ["Laravel", "Tailwind css", "Nova"],
+        "githublink": "https://github.com/KyByto"
+
+
+    } ,
+    {
+        "id": 0,
         "image": "https://i.ibb.co/7pdJR48/Capture-d-cran-2024-06-04-065654.png",
         "title": "Blog Website",
         "link": "https://github.com/KyByto/Blog-Website",
