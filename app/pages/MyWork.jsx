@@ -25,7 +25,7 @@ const AllProjects = works.map(
       <div className="image-container">
   <img className="image-link w-[100%]" src={work.image} alt={`image de ${index} ${work.title}`} width="100" height="100" />
   <div className="link">
-    <Link tabIndex="-1" href={work.link ? work.link : "https://www.youtube.com/watch?v=T6e_Nm6DvJM"} target='_blank' rel="noopener noreferrer" className="relative text-black text-[15px] bg-white inline p-1 rounded-lg">Go to Project Link</Link>
+    <Link tabIndex="-1" href={work.link ? work.link : " "} target='_blank' rel="noopener noreferrer" className="relative text-black text-[15px] bg-white inline p-1 rounded-lg">Go to Project Link</Link>
   </div>
 </div>
 
