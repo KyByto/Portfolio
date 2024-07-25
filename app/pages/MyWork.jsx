@@ -86,7 +86,6 @@ export default function MyWork() {
           breakpoints={breakpoints}
           slidesPerView={3}
           spaceBetween={20}
-          autoplay={{ delay: 2000, disableOnInteraction: true }}
         >
           {AllProjects.map((project, index) => (
             <SwiperSlide key={index}>{project}</SwiperSlide>
